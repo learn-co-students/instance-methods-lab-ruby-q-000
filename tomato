@@ -1,0 +1,28 @@
+[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) Dog #bark puts "Woof!"
+     [31mFailure/Error: expect($stdout).to receive(:puts).with("Woof!")[0m
+     [31m  (#<IO:0x007faed38ca580>).puts("Woof!")[0m
+     [31m      expected: 1 time with arguments: ("Woof!")[0m
+     [31m      received: 0 times[0m
+     [36m# ./spec/instance_methods_spec.rb:14:in `block (3 levels) in <top (required)>'[0m
+
+  2) testing is wrong
+     [31mFailure/Error: expect(true).to eq(false)[0m
+     [31m  [0m
+     [31m  expected: false[0m
+     [31m       got: true[0m
+     [31m  [0m
+     [31m  (compared using ==)[0m
+     [36m# ./spec/test_spec.rb:3:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.02088 seconds (files took 0.0876 seconds to load)
+[31m11 examples, 2 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/instance_methods_spec.rb:13[0m [36m# Dog #bark puts "Woof!"[0m
+[31mrspec ./spec/test_spec.rb:2[0m [36m# testing is wrong[0m
+
