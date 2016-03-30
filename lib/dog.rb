@@ -1,4 +1,5 @@
 class Dog
+
   def bark
     puts "Woof!"
   end
@@ -8,6 +9,6 @@ class Dog
   end
 end
 
-  fido = Dog.new
-  snoopy = Dog.new
-  lassie = Dog.new
+  # fido = Dog.new
+  # snoopy = Dog.new
+  # lassie = Dog.new
