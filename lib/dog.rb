@@ -7,7 +7,7 @@ class Dog
     puts "The Dog is sitting"
   end
 end
-
+#method to variable
 fido = Dog.new
 fido.bark
 fido.sit
