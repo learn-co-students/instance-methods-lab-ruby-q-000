@@ -1,9 +1,17 @@
 class Dog
   def bark
-    puts "Woof!"
+    puts "#{@dog_name} says: Woof!"
   end
 
   def sit
-    puts "The Dog is sitting"
+    puts "#{@dog_name} is sitting"
+  end
+
+  def name=(dog_name)
+    @dog_name = dog_name
+  end
+
+  def name
+    @dog_name
   end
 end
