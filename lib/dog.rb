@@ -13,6 +13,6 @@ end
 end
 class Dog
   def sit
-    puts "The dog is sitting."
+    puts "The dog is sitting"
   end
 end
