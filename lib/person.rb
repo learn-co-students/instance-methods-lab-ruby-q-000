@@ -1,9 +1,25 @@
 class Person
-  def talk
-    puts "Hello World!"
+  def name
+    @name
   end
-  
+
+  def name=(name)
+    @name = name
+  end
+
+  def job
+    @job
+  end
+
+  def job=(job)
+    @job = job
+  end
+
+  def talk
+    @talk = puts "Hello World!"
+  end
+
   def walk
-    puts "The Person is walking"
-  end    
+    @walk = puts "The Person is walking"
+  end  
 end
